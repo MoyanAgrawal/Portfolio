@@ -23,6 +23,10 @@ const Work = () => {
     const currentIndex = swiper.activeIndex;
     setProject(projects[currentIndex]);
   };
+  // const handleAlert=()=>{
+  //   console.log("kjbwdkjca");
+  //   alert("Confidential!");
+  // }
   return (
     <motion.section
       initial={{ opacity: 0 }}
@@ -35,13 +39,17 @@ const Work = () => {
       <div className="container mx-auto">
         <div className="flex flex-col xl:flex-row xl:gap-[30px]">
           <div className="w-full xl:w-[50%] xl:h-[460px] flex flex-col xl:justify-between order-2 xl:order-none">
-            <div className="flex flex-col gap-[30px] h-[50%]">
-              <div className="text-8xl leading-none font-extrabold text-transparent text-outline">
+            <div className="flex flex-col gap-[30px] h-[50%] group">
+              <div className="text-8xl leading-none font-extrabold group-hover:text-outline-hover transition-all duration-500 duration-500 text-transparent text-outline">
                 {project.num}
               </div>
               <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize">
+                {project.title}
+              </h2>
+              <h2 className="text-[22px] font-bold leading-none text-white  capitalize">
                 {project.category} project
               </h2>
+              
               <p className="text-white/60">{project.description}</p>
               <ul className="flex gap-4">
                 {project.stack.map((item, idx) => {
@@ -80,7 +88,7 @@ const Work = () => {
               </div>
             </div>
           </div>
-          <div className="w-full xl:w-[50%]">
+          <div className="w-full xl:w-[50%] gap-3">
             <Swiper
               spaceBetween={10}
               slidesPerView={1}

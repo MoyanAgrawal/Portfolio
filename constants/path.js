@@ -22,7 +22,7 @@ import {
   SiCanva,
 } from "react-icons/si";
 
-import {FaPhoneAlt, FaEnvelope, FaMapMarkedAlt} from "react-icons/fa"
+import { FaPhoneAlt, FaEnvelope, FaMapMarkedAlt } from "react-icons/fa";
 
 export const links = [
   {
@@ -48,9 +48,15 @@ export const links = [
 ];
 
 export const socials = [
-  { icons: <FaGithub />, path: "" },
-  { icons: <FaLinkedinIn />, path: "" },
-  { icons: <FaInstagram />, path: "" },
+  { icons: <FaGithub />, path: "https://github.com/MoyanAgrawal" },
+  {
+    icons: <FaLinkedinIn />,
+    path: "https://www.linkedin.com/in/moyan-agrawal-549121227?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+  },
+  {
+    icons: <FaInstagram />,
+    path: "https://www.instagram.com/moyan_agrawal?igsh=MWI5bGU0N3k3cGY1cQ==",
+  },
   { icons: <FaYoutube />, path: "" },
   { icons: <FaTwitter />, path: "" },
 ];
@@ -66,30 +72,30 @@ export const services = [
   {
     num: "01",
     title: "Web Development",
-    description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. In quibusdam",
+    description: "Next.js, React.js, Node.js, MongoDB, etc...",
     href: "",
+    value: "wdt",
   },
   {
     num: "02",
     title: "UI/UX developer",
-    description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. In quibusdam",
+    description: "Figma, Canva, Html, CSS, Javascript, etc...",
     href: "",
+    value: "udt",
   },
   {
     num: "03",
-    title: "Logo Design",
-    description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. In quibusdam",
+    title: "App Development",
+    description: "React-Native, other libraries, etc...",
     href: "",
+    value: "adt",
   },
   {
     num: "04",
-    title: "SEO",
-    description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. In quibusdam",
+    title: "Data Analyst",
+    description: "SQL, PostresQL, Oracle, etc...",
     href: "",
+    value: "dat",
   },
 ];
 
@@ -97,7 +103,7 @@ export const about = [
   {
     title: "About Me",
     description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, pariatur debitis eligendi doloribus temporibus dolorum ratione nisi nesciunt ",
+      "Innovative IT professional with 1+ years of experience. Known for a proactive attitude, problem-solving skills, and a collaborative spirit. Enthusiastic about learning and adapting to new challenges.",
     info: [
       {
         fieldName: "Name",
@@ -132,7 +138,7 @@ export const experience = [
     icon: "/assets/resume/badge.svg",
     title: "My Experience",
     description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, pariatur debitis eligendi doloribus temporibus dolorum ratione nisi nesciunt ",
+      "Dedicated IT professional with over a year of experience in software development and system maintenance. Adept at problem-solving, learning new technologies, and contributing to team success.",
     items: [
       {
         company: "Linked List Solutions",
@@ -153,7 +159,7 @@ export const education = [
     icon: "/assets/resume/cap.svg",
     title: "My Education",
     description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, pariatur debitis eligendi doloribus temporibus dolorum ratione nisi nesciunt ",
+      "Persuaing a Bachelor's degree in Computer Science. Skilled in software development, database management, and IT support. Passionate about continuous learning and applying academic knowledge to real-world challenges. ",
     items: [
       {
         institution: "GLA University",
@@ -178,7 +184,7 @@ export const skills = [
   {
     title: "My Skills",
     description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, pariatur debitis eligendi doloribus temporibus dolorum ratione nisi nesciunt ",
+      "Experienced in full-stack web development using Next.js, React.js and Node.js. Proficient in creating and maintaining databases with SQL and MongoDB. Skilled in debugging and optimizing code for performance. ",
     skillList: [
       {
         icon: <SiMongodb />,
@@ -231,54 +237,67 @@ export const skills = [
 export const projects = [
   {
     num: "01",
-    category: "frontend",
-    title: "project 1",
+    category: "Internship",
+    title: "School ERP System",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, ad ",
-    stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
-    image:"/assets/work/thumb1.png",
-    live:'',
-    github:'',
+      "Developed a web application to address the challenge of managing school tasks effectively.",
+    stack: [
+      { name: "React.js" },
+      { name: "Bootstrap.css" },
+      { name: "SpringBoot" },
+    ],
+    image: "/assets/work/thumb2.png",
+    live: "https://magenta-froyo-ab5a4b.netlify.app/school",
+    github: "",
   },
   {
     num: "02",
-    category: "fullstack",
-    title: "project 2",
+    category: "Personal",
+    title: "Task Manager",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, ad ",
-    stack: [{ name: "Next.js" }, { name: "Tailwind.css" }, { name: "Node.js" }],
-    image:"/assets/work/thumb2.png",
-    live:'',
-    github:'',
+      "Developed a comprehensive Task Manager web application to facilitate efficient organization,tracking, and management of tasks or projects depending upon their status and priority allotted to them.",
+    stack: [
+      { name: "MongoDb" },
+      { name: "express.js" },
+      { name: "React.js" },
+      { name: "Node.js" },
+    ],
+    image: "/assets/work/thumb1.png",
+    live: "https://660af2dcf4b89bdd72637b84--peppy-paletas-864d23.netlify.app/",
+    github: "https://github.com/MoyanAgrawal/Task_Manager_FrontEnd/tree/master",
   },
   {
     num: "03",
-    category: "frontend",
-    title: "project 3",
+    category: "Perosnal",
+    title: "Travel Log",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, ad ",
-    stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
-    image:"/assets/work/thumb3.png",
-    live:'',
-    github:'',
+      "Travel logs are personal accounts that chronicle the experiences,insights, and discoveries made during journeys. They serve as a way to document and reflect on the transformative power of trave",
+    stack: [
+      { name: "MongoDB" },
+      { name: "Express.js" },
+      { name: "React.js" },
+      { name: "Node.js" },
+    ],
+    image: "/assets/work/thumb3.png",
+    live: "",
+    github: "https://github.com/Arunodaya9027/Travel-Log",
   },
 ];
 
-
-export const info=[
+export const info = [
   {
-    icon:<FaPhoneAlt/>,
-    title:"Phone",
-    description:"+91 7818827392"
+    icon: <FaPhoneAlt />,
+    title: "Phone",
+    description: "+91 7818827392",
   },
   {
-    icon:<FaEnvelope/>,
-    title:"Email",
-    description:"moyanagrawal144@gmail.com"
+    icon: <FaEnvelope />,
+    title: "Email",
+    description: "moyanagrawal144@gmail.com",
   },
   {
-    icon:<FaMapMarkedAlt/>,
-    title:"Address",
-    description:"Mathura, Uttar Pradesh, India"
+    icon: <FaMapMarkedAlt />,
+    title: "Address",
+    description: "Mathura, Uttar Pradesh, India",
   },
-]
+];

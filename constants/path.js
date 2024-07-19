@@ -1,4 +1,3 @@
-import { LocaleRouteNormalizer } from "next/dist/server/future/normalizers/locale-route-normalizer";
 import {
   FaGithub,
   FaInstagram,

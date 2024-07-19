@@ -53,7 +53,7 @@ const Contact = () => {
       setCheck("I have recieved your message will get back to you soon, Have a Happy Day!!");
       setTimeout(() => {
         window.location.reload();
-      }, 3500);
+      }, 4500);
     } else {
       setCheck("Failed to send message.");
     }

@@ -22,6 +22,8 @@ import {
   SiCanva,
 } from "react-icons/si";
 
+import {FaPhoneAlt, FaEnvelope, FaMapMarkedAlt} from "react-icons/fa"
+
 export const links = [
   {
     name: "Home",
@@ -261,3 +263,22 @@ export const projects = [
     github:'',
   },
 ];
+
+
+export const info=[
+  {
+    icon:<FaPhoneAlt/>,
+    title:"Phone",
+    description:"+91 7818827392"
+  },
+  {
+    icon:<FaEnvelope/>,
+    title:"Email",
+    description:"moyanagrawal144@gmail.com"
+  },
+  {
+    icon:<FaMapMarkedAlt/>,
+    title:"Address",
+    description:"Mathura, Uttar Pradesh, India"
+  },
+]

@@ -4,28 +4,6 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import React from "react";
 import { links } from "@/constants/path";
-// const links = [
-//   {
-//     name: "Home",
-//     path: "/",
-//   },
-//   {
-//     name: "Services",
-//     path: "/services",
-//   },
-//   {
-//     name: "Resume",
-//     path: "/resume",
-//   },
-//   {
-//     name: "Work",
-//     path: "/work",
-//   },
-//   {
-//     name: "Contact",
-//     path: "/contact",
-//   },
-// ];
 
 function Nav() {
   const pathName=usePathname();

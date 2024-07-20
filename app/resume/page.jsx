@@ -133,8 +133,9 @@ const Resume = () => {
                             <TooltipProvider delayDuration={100}>
                               <Tooltip>
                                 <TooltipTrigger className="w-full h-[150px] bg-[#232329] rounded-xl flex justify-center items-center group">
-                                  <div className="text-6xl group-hover:text-accent transition-all duration-300">
+                                  <div className="text-6xl group-hover:text-accent transition-all duration-300 flex flex-col items-center justify-center gap-8">
                                     {item.icon}
+                                    {<span className="none text-[15px] capitalize">{item.name}</span>}
                                   </div>
                                 </TooltipTrigger>
                                 <TooltipContent>

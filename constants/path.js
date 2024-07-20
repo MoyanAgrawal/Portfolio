@@ -20,8 +20,9 @@ import {
   SiExpress,
   SiCanva,
 } from "react-icons/si";
-
+import { TbSql } from "react-icons/tb";
 import { FaPhoneAlt, FaEnvelope, FaMapMarkedAlt } from "react-icons/fa";
+import { BiLogoPostgresql } from "react-icons/bi";
 
 export const links = [
   {
@@ -91,11 +92,18 @@ export const services = [
   },
   {
     num: "04",
-    title: "Data Analyst",
+    title: "DBA",
     description: "SQL, PostresQL, Oracle, etc...",
     href: "",
     value: "dat",
   },
+  // {
+  //   num: "04",
+  //   title: "Data Analyst",
+  //   description: "SQL, PostresQL, Oracle, etc...",
+  //   href: "",
+  //   value: "dat",
+  // },
 ];
 
 export const about = [
@@ -210,8 +218,16 @@ export const skills = [
         name: "tailwind.css",
       },
       {
-        icon: <FaFigma />,
-        name: "figma",
+        icon: <FaReact />,
+        name: "react-native",
+      },
+      {
+        icon: <TbSql />,
+        name: "SQL",
+      },
+      {
+        icon: <BiLogoPostgresql />,
+        name: "postgreSQL",
       },
       {
         icon: <SiCanva />,

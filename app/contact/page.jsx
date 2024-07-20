@@ -34,7 +34,7 @@ const Contact = () => {
     const { name, value } = e.target;
     setFormData((prevData) => ({ ...prevData, [name]: value }));
   };
-  console.log("formdata", formData);
+  // console.log("formdata", formData);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -53,7 +53,7 @@ const Contact = () => {
       setCheck("I have recieved your message will get back to you soon, Have a Happy Day!!");
       setTimeout(() => {
         window.location.reload();
-      }, 4500);
+      }, 5000);
     } else {
       setCheck("Failed to send message.");
     }

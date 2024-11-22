@@ -122,7 +122,7 @@ export const about = [
       },
       {
         fieldName: "Experience",
-        fieldValue: "1+ Years (internship)",
+        fieldValue: "1+ Years(internship)",
       },
       {
         fieldName: "Nationality",

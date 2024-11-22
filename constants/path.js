@@ -62,7 +62,7 @@ export const socials = [
 ];
 
 export const stats = [
-  { num: 1, text: "Years of experience" },
+  { num: 1, text: "Years of internship experience" },
   { num: 5, text: "Projects" },
   { num: 10, text: "Technologies Used" },
   { num: 500, text: "Code commits" },
@@ -110,7 +110,7 @@ export const about = [
   {
     title: "About Me",
     description:
-      "Innovative IT professional with 1+ years of experience. Known for a proactive attitude, problem-solving skills, and a collaborative spirit. Enthusiastic about learning and adapting to new challenges.",
+      "Innovative IT professional with 1+ years of internship experience. Known for a proactive attitude, problem-solving skills, and a collaborative spirit. Enthusiastic about learning and adapting to new challenges.",
     info: [
       {
         fieldName: "Name",
@@ -122,7 +122,7 @@ export const about = [
       },
       {
         fieldName: "Experience",
-        fieldValue: "1+ Years",
+        fieldValue: "1+ Years (internship)",
       },
       {
         fieldName: "Nationality",
@@ -145,7 +145,7 @@ export const experience = [
     icon: "/assets/resume/badge.svg",
     title: "My Experience",
     description:
-      "Dedicated IT professional with over a year of experience in software development and system maintenance. Adept at problem-solving, learning new technologies, and contributing to team success.",
+      "Dedicated IT professional with over a year of internship experience in software development. Adept at problem-solving, learning new technologies, and contributing to team success.",
     items: [
       {
         company: "Linked List Solutions",
@@ -156,6 +156,11 @@ export const experience = [
         company: "AppSquadz Software Pvt. Ltd.",
         position: "Full Stack Developer Intern",
         duration: "May 2023 - Jul 2023",
+      },
+      {
+        company: "Webzit",
+        position: "Full Stack Developer Intern",
+        duration: "Sept 2024 - Oct 2024",
       },
     ],
   },
